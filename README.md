@@ -30,7 +30,7 @@ To achieve this, we'll build a Gen-AI-based rule profiling model using Hugging F
 📹 [Video Demo](#) (if applicable)  
 🖼️ Screenshots:
 
-![Flow Diagram with Arch Folder](link-to-image)
+![Flow Diagram with Arch Folder](./artifacts/arch/Flow.png)
 
 *Figure: Flow diagram showcasing the architecture folder integration.*
 
