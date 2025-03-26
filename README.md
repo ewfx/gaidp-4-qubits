@@ -13,9 +13,17 @@
 
 ---
 
-Test SHibu New Update
+
 ## 🎯 Introduction
 A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+
+   - We will build an LLM-based ruling profiling model that:
+   - Extracts data from a PDF file.
+   - Encrypts or transforms the data using LLAMA (Hugging Face).
+   - Stores the transformed data in a Vector Database (ChromaDB).
+   - Loads an Excel file and compares it with extracted rules.
+   - Validates the rules and updates the Excel file with feedback.
+   - Exposes the process as a Flask API using Swagger UI.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -46,6 +54,7 @@ Describe the major technical or non-technical challenges your team encountered.
    ```sh
    npm install  # or pip install -r requirements.txt (for Python)
    ```
+      # pip install -r requirements.txt (for Python)
 3. Run the project  
    ```sh
    npm start  # or python app.py
