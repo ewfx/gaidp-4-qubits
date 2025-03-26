@@ -1,0 +1,52 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "Ruling Profiling API",
+      "description": "API for extracting and validating rules",
+      "version": "1.0.0"
+    },
+    "host": "127.0.0.1:5000",
+    "schemes": ["http"],
+    "paths": {
+      "/upload_pdf": {
+        "post": {
+          "summary": "Upload PDF and extract rules",
+          "consumes": ["multipart/form-data"],
+          "parameters": [
+            {
+              "in": "formData",
+              "name": "file",
+              "type": "file",
+              "required": true
+            }
+          ],
+          "responses": {
+            "200": { "description": "Successful Extraction" }
+          }
+        }
+      },
+      "/validate_rules": {
+        "post": {
+          "summary": "Validate Rules with Extracted Data",
+          "parameters": [
+            {
+              "in": "formData",
+              "name": "input_excel",
+              "type": "string",
+              "required": true
+            },
+            {
+              "in": "formData",
+              "name": "output_excel",
+              "type": "string",
+              "required": true
+            }
+          ],
+          "responses": {
+            "200": { "description": "Validation Successful" }
+          }
+        }
+      }
+    }
+  }
+  
