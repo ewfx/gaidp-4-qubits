@@ -28,6 +28,7 @@ To achieve this, we'll build a Gen-AI-based rule profiling model using Hugging F
 ## 🎥 Demo
 
 📹 [Video Demo](./artifacts/arch/Demo_Video.mp4)
+
 🖼️ Screenshots:
 
 ![Flow Diagram with Arch Folder](./artifacts/arch/Flow.png)
@@ -115,7 +116,11 @@ You have a powerful GPU (24GB VRAM or more) or use a cloud solution like AWS, Go
    ```
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+LLAMA-2 models (7B, 13B, 65B) require high-end GPUs with large VRAM (24GB+).
+
+Even the smallest LLAMA-2-7B struggles on consumer GPUs (like RTX 3090 or 4090).
+
+
 
 ## 🏃 How to Run
 1. Clone the repository  
