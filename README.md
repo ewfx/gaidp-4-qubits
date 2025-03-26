@@ -50,13 +50,13 @@ Explanation of the Flowchart:
 13.	Update Excel Sheet with Feedback (openpyxl): The Excel sheet is updated with the validation feedback using openpyxl.
 14.	End: The process ends.
 
-   Train Data  ![Flow Diagram with Arch Folder](./artifacts/demo/bank_patterns_testData.csv)
-   Validation Result Data  ![Flow Diagram with Arch Folder](./artifacts/demo/validate_rules.xlsx)
-   Rukes Result Data  ![Flow Diagram with Arch Folder](./artifacts/demo/rules.xlsx.xlsx)
+   Train Data  ![Train Result with Demo Folder](./artifacts/demo/bank_patterns_testData.csv)
+   Validation Result Data  ![Validation  with Demo Folder](./artifacts/demo/validate_rules.xlsx)
+   Rules Result Data  ![Rules Result with Demo Folder](./artifacts/demo/rules.xlsx.xlsx)
 
 🖼️ Screenshots:
 
-![Validation Diagram with Arch Folder](./artifacts/demo/ValidationOutPut.png)
+![Validation  with Demo Folder](./artifacts/demo/ValidationOutPut.png)
 
 *Figure: Flow diagram showcasing the architecture folder integration.*
 ## 💡 Inspiration
