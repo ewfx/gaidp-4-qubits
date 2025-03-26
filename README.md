@@ -51,11 +51,11 @@ Explanation of the Flowchart:
 13.	Update Excel Sheet with Feedback (openpyxl): The Excel sheet is updated with the validation feedback using openpyxl.
 14.	End: The process ends.
 
-🖼️ Train Data  ![Train Result with Demo Folder](./artifacts/demo/bank_patterns_testData.csv)
+🖼️ Train Data 📊(./artifacts/demo/bank_patterns_testData.csv)
 
-🖼️ Validation Result Data  ![Validation  with Demo Folder](./artifacts/demo/validate_rules.xlsx)
+🖼️ Validation Result Data  📊(./artifacts/demo/validate_rules.xlsx)
 
-🖼️ Rules Result Data  ![Rules Result with Demo Folder](./artifacts/demo/rules.xlsx.xlsx)
+🖼️ Rules Result Data  📊(./artifacts/demo/rules.xlsx.xlsx)
 
 🖼️ Screenshots:
 
@@ -125,6 +125,7 @@ Even the smallest LLAMA-2-7B struggles on consumer GPUs (like RTX 3090 or 4090).
 1. Clone the repository  
    ```sh
    git clone https://github.com/ewfx/gaidp-4-qubits.git
+   cd gaidp-4-qubits
    ```
 2. Install dependencies  
    ```sh
@@ -135,7 +136,7 @@ Even the smallest LLAMA-2-7B struggles on consumer GPUs (like RTX 3090 or 4090).
    ```sh
    python code/src/main.py
    ```
-4. Swagger UI at 
+4. Swagger UI URL 
    ```sh
     http://127.0.0.1:5000/swagger/
    ```
