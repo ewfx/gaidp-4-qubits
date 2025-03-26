@@ -52,7 +52,9 @@ Explanation of the Flowchart:
 14.	End: The process ends.
 
 📊 Train Data ![Train Data with Demo Folder](./artifacts/demo/bank_patterns_testData.csv)
+
 📊 Validation Result Data  ![Validation Result Data with Demo Folder](./artifacts/demo/validate_rules.xlsx)
+
 📊 Rules Result Data  ![Rules Result Data with Demo Folder](./artifacts/demo/rules.xlsx.xlsx)
 
 🖼️ Screenshots:
@@ -141,8 +143,11 @@ Even the smallest LLAMA-2-7B struggles on consumer GPUs (like RTX 3090 or 4090).
    Swagger UI ![Swagger UI with Demo Folder](./artifacts/arch/Output%20UI.png)
 
    📊 Train Data ![Train Data with Demo Folder](./artifacts/demo/bank_patterns_testData.csv)
+
    📊 Validation Result Data  ![Validation Result Data with Demo Folder](./artifacts/demo/validate_rules.xlsx)
+
    📊 Rules Result Data  ![Rules Result Data with Demo Folder](./artifacts/demo/rules.xlsx.xlsx)
+   
 ## 🚧 Final API Workflow
 - 🔹 Upload PDF → Extracts rules from PDF
 - 🔹 Stores extracted data in VectorDB
