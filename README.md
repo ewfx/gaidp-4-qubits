@@ -98,4 +98,12 @@ Describe the major technical or non-technical challenges your team encountered.
 
 ## 👥 Team
 - **Your Name** - [GitHub](#) | [LinkedIn](#)
+- 🔹 Shibu Kannan 
+- 🔹 NandhaKumar
+- 🔹 Karthick
+- 🔹 Thirusangu
+- 🔹 Nayab Rasool Shaik
+
 - **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+
+
