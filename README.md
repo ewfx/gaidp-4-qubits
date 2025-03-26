@@ -55,10 +55,42 @@ Explanation of the Flowchart:
    Rukes Result Data  ![Flow Diagram with Arch Folder](./artifacts/demo/rules.xlsx.xlsx)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
-
+This Gen-AI-powered ruling profiling model is designed for automated rule validation, compliance checks, and data transformation using LLMs like Llama-2-7B. It is particularly useful in industries that require rule-based decision-making.
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+1. Automated Rule Extraction from PDFs
+Extracts regulatory rules or guidelines from PDF documents (e.g., contracts, policies, legal documents).
+
+Uses OCR or NLP techniques to extract structured text from unstructured PDFs.
+
+💡 Example: Extracting tax compliance rules from government regulatory documents.
+
+2. Understanding & Transforming Data with LLAMA-2
+Uses Meta’s Llama-2-7B to understand, encrypt, or transform extracted text.
+
+The LLM ensures the extracted rules are accurate, relevant, and structured.
+
+💡 Example: Transforming legal contract terms into a simplified, machine-readable format.
+
+3. Storing Extracted Data in a Vector Database (VectorDB)
+Stores the extracted rules in a Vector Database (ChromaDB, FAISS, or Pinecone).
+
+Enables fast retrieval and comparison of new input rules against stored historical rules.
+
+💡 Example: A bank stores risk assessment rules and compares them against new loan applications for automated compliance checks.
+
+4. Comparing Extracted Data with Existing Rules in an Excel Sheet
+Loads an Excel file containing predefined rules or standards.
+
+Uses LLM to compare extracted rules with existing rules and identify matches or discrepancies.
+
+💡 Example: A pharmaceutical company validates FDA compliance rules in a drug approval document by comparing them with internal guidelines.
+
+5. Updating the Excel File with Validation Feedback
+Adds an extra column in the Excel sheet with feedback on whether the rule matches, differs, or needs review.
+
+Automates manual review processes, reducing human error and speeding up decision-making.
+
+💡 Example: An audit firm updates an Excel sheet with feedback on whether a company's financial disclosures match tax regulations.
 
 ## 🛠️ How We Built It
 Llama-2-7b-chat-hf is a 7-billion parameter chat-optimized model by Meta. It's designed for conversational AI, reasoning, and text generation.
