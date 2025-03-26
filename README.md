@@ -105,9 +105,6 @@ Llama-2-7b-chat-hf is a 7-billion parameter chat-optimized model by Meta. It's d
 
 If you want to use Llama-2-7b-chat-hf in the project, ensure that:
 
-You have a powerful GPU (24GB VRAM or more) or use a cloud solution like AWS, Google Colab, or Hugging Face Inference API.
-
-
  ```sh
      model_name = "meta-llama/Llama-2-7b-chat-hf"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
