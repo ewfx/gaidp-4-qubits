@@ -51,11 +51,11 @@ Explanation of the Flowchart:
 13.	Update Excel Sheet with Feedback (openpyxl): The Excel sheet is updated with the validation feedback using openpyxl.
 14.	End: The process ends.
 
-🖼️ Train Data 📊(./artifacts/demo/bank_patterns_testData.csv)
+📊 Train Data (./artifacts/demo/bank_patterns_testData.csv)
 
-🖼️ Validation Result Data  📊(./artifacts/demo/validate_rules.xlsx)
+📊 Validation Result Data  (./artifacts/demo/validate_rules.xlsx)
 
-🖼️ Rules Result Data  📊(./artifacts/demo/rules.xlsx.xlsx)
+📊 Rules Result Data  (./artifacts/demo/rules.xlsx.xlsx)
 
 🖼️ Screenshots:
 
@@ -140,11 +140,11 @@ Even the smallest LLAMA-2-7B struggles on consumer GPUs (like RTX 3090 or 4090).
    ```sh
     http://127.0.0.1:5000/swagger/
    ```
-   Swagger UI ![Flow Diagram with Arch Folder](./artifacts/arch/Output%20UI.png)
+   Swagger UI ![Swagger UI with Demo Folder](./artifacts/arch/Output%20UI.png)
 
-   Train Data  ![Flow Diagram with Arch Folder](./artifacts/demo/bank_patterns_testData.csv)
-   Validation Result Data  ![Flow Diagram with Arch Folder](./artifacts/demo/validate_rules.xlsx)
-   Rukes Result Data  ![Flow Diagram with Arch Folder](./artifacts/demo/rules.xlsx.xlsx)
+   📊 Train Data (./artifacts/demo/bank_patterns_testData.csv)
+   📊 Validation Result Data  (./artifacts/demo/validate_rules.xlsx)
+   📊 Rules Result Data  (./artifacts/demo/rules.xlsx.xlsx)
 ## 🚧 Final API Workflow
 - 🔹 Upload PDF → Extracts rules from PDF
 - 🔹 Stores extracted data in VectorDB
