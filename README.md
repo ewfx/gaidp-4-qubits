@@ -61,7 +61,7 @@ Explanation of the Flowchart:
 
 ![Validation  with Demo Folder](./artifacts/demo/ValidationOutPut.png)
 
-*Figure: Flow diagram showcasing the architecture folder integration.*
+*Figure: Validation diagram showcasing the architecture Demo integration.*
 ## 💡 Inspiration
 This Gen-AI-powered ruling profiling model is designed for automated rule validation, compliance checks, and data transformation using LLMs like Llama-2-7B. It is particularly useful in industries that require rule-based decision-making.
 ## ⚙️ What It Does
