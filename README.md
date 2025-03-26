@@ -26,8 +26,8 @@ To achieve this, we'll build a Gen-AI-based rule profiling model using Hugging F
    - Exposes the process as a Flask API using Swagger UI.
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+
+📹 [Video Demo](./artifacts/arch/Demo_Video.mp4)
 🖼️ Screenshots:
 
 ![Flow Diagram with Arch Folder](./artifacts/arch/Flow.png)
