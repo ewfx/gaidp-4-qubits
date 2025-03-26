@@ -81,11 +81,20 @@ Describe the major technical or non-technical challenges your team encountered.
    ```sh
     http://127.0.0.1:5000/swagger/
    ```
+## 🚧 Final API Workflow
+- 🔹 Upload PDF → Extracts rules from PDF
+- 🔹 Stores extracted data in VectorDB
+- 🔹 Validates extracted rules against Excel rules
+- 🔹 Updates the Excel file with validation feedback
+- 🔹 Access Swagger UI at http://127.0.0.1:5000/swagger/
+
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 transformers & torch → For Hugging Face LLAMA model
+- 🔹 langchain → To manage LLM interactions
+- 🔹 pypdf → To extract text from PDFs
+- 🔹 pandas & openpyxl → To handle Excel files
+- 🔹 chromadb → For Vector Database
+- 🔹 flask & flask-swagger-ui → To build a REST API
 
 ## 👥 Team
 - **Your Name** - [GitHub](#) | [LinkedIn](#)
