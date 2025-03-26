@@ -54,6 +54,11 @@ Explanation of the Flowchart:
    Validation Result Data  ![Flow Diagram with Arch Folder](./artifacts/demo/validate_rules.xlsx)
    Rukes Result Data  ![Flow Diagram with Arch Folder](./artifacts/demo/rules.xlsx.xlsx)
 
+🖼️ Screenshots:
+
+![Validation Diagram with Arch Folder](./artifacts/demo/ValidationOutPut.png)
+
+*Figure: Flow diagram showcasing the architecture folder integration.*
 ## 💡 Inspiration
 This Gen-AI-powered ruling profiling model is designed for automated rule validation, compliance checks, and data transformation using LLMs like Llama-2-7B. It is particularly useful in industries that require rule-based decision-making.
 ## ⚙️ What It Does
