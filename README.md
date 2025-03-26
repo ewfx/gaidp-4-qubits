@@ -51,9 +51,11 @@ Explanation of the Flowchart:
 13.	Update Excel Sheet with Feedback (openpyxl): The Excel sheet is updated with the validation feedback using openpyxl.
 14.	End: The process ends.
 
-   Train Data  ![Train Result with Demo Folder](./artifacts/demo/bank_patterns_testData.csv)
-   Validation Result Data  ![Validation  with Demo Folder](./artifacts/demo/validate_rules.xlsx)
-   Rules Result Data  ![Rules Result with Demo Folder](./artifacts/demo/rules.xlsx.xlsx)
+🖼️ Train Data  ![Train Result with Demo Folder](./artifacts/demo/bank_patterns_testData.csv)
+
+🖼️ Validation Result Data  ![Validation  with Demo Folder](./artifacts/demo/validate_rules.xlsx)
+
+🖼️ Rules Result Data  ![Rules Result with Demo Folder](./artifacts/demo/rules.xlsx.xlsx)
 
 🖼️ Screenshots:
 
