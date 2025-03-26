@@ -50,6 +50,9 @@ Explanation of the Flowchart:
 13.	Update Excel Sheet with Feedback (openpyxl): The Excel sheet is updated with the validation feedback using openpyxl.
 14.	End: The process ends.
 
+   Train Data  ![Flow Diagram with Arch Folder](./artifacts/demo/bank_patterns_testData.csv)
+   Validation Result Data  ![Flow Diagram with Arch Folder](./artifacts/demo/validate_rules.xlsx)
+   Rukes Result Data  ![Flow Diagram with Arch Folder](./artifacts/demo/rules.xlsx.xlsx)
 
 ## 💡 Inspiration
 What inspired you to create this project? Describe the problem you're solving.
@@ -58,7 +61,21 @@ What inspired you to create this project? Describe the problem you're solving.
 Explain the key features and functionalities of your project.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+Llama-2-7b-chat-hf is a 7-billion parameter chat-optimized model by Meta. It's designed for conversational AI, reasoning, and text generation.
+
+If you want to use Llama-2-7b-chat-hf in the project, ensure that:
+
+You have a powerful GPU (24GB VRAM or more) or use a cloud solution like AWS, Google Colab, or Hugging Face Inference API.
+
+
+ ```sh
+     model_name = "meta-llama/Llama-2-7b-chat-hf"
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(model_name, device_map="cuda")
+    
+    inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=4096).to("cuda")
+    outputs = model.generate(**inputs,max_new_tokens=500)
+   ```
 
 ## 🚧 Challenges We Faced
 Describe the major technical or non-technical challenges your team encountered.
@@ -81,6 +98,11 @@ Describe the major technical or non-technical challenges your team encountered.
    ```sh
     http://127.0.0.1:5000/swagger/
    ```
+   Swagger UI ![Flow Diagram with Arch Folder](./artifacts/arch/Output%20UI.png)
+
+   Train Data  ![Flow Diagram with Arch Folder](./artifacts/demo/bank_patterns_testData.csv)
+   Validation Result Data  ![Flow Diagram with Arch Folder](./artifacts/demo/validate_rules.xlsx)
+   Rukes Result Data  ![Flow Diagram with Arch Folder](./artifacts/demo/rules.xlsx.xlsx)
 ## 🚧 Final API Workflow
 - 🔹 Upload PDF → Extracts rules from PDF
 - 🔹 Stores extracted data in VectorDB
