@@ -28,7 +28,7 @@ def store_text_in_vector_db(text, metadata):
 
 
 
-pdf_file = "data/US_Auto_Loan.pdf"
+pdf_file = "artifacts/demo/US_Auto_Loan.pdf"
 pdf_text = extract_text_from_pdf(pdf_file)
 print("Extracted PDF text:", pdf_text[:4096]) 
 
@@ -43,7 +43,7 @@ def load_excel(excel_path):
 
 # Load existing rule data
 
-df_rules = load_excel("data/rules.xlsx")
+df_rules = load_excel("artifacts/demo/rules.xlsx")
 print("Loaded audit rules:", df_rules.head())
 
 

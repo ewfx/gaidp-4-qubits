@@ -29,7 +29,7 @@ def validate_rules():
     input_excel = request.form.get("input_excel")
     output_excel = request.form.get("output_excel")
     
-    pdf_text = extract_text_from_pdf("data/US_Auto_Loan.pdf")  # Assume sample.pdf is uploaded
+    pdf_text = extract_text_from_pdf("artifacts/demo/US_Auto_Loan.pdf")  # Assume sample.pdf is uploaded
     validate_and_update_excel(input_excel, output_excel, pdf_text)
     
     return jsonify({"message": "Rules validated successfully", "output_file": output_excel})
